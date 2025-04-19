@@ -18,7 +18,7 @@ require (
 	github.com/deckarep/golang-set/v2 v2.6.0
 	github.com/docker/go-units v0.5.0
 	github.com/golang-jwt/jwt/v5 v5.2.2
-	github.com/golang/snappy v0.0.5-0.20231225225746-43d5d4cd4e0e
+	github.com/golang/snappy v1.0.0
 	github.com/gorilla/mux v1.8.1
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/hashicorp/memberlist v0.5.0
