@@ -84,7 +84,7 @@ func runCompressionPerformance(fn func(dst, src []byte) ([]byte, error), data []
 		assertError(err)
 	}
 
-	totalSize := len(data) * N
+	totalSize := max(len(buf), len(data)) * N
 	return float64(totalSize) / (time.Since(begin).Seconds() * 1e6)
 }
 
